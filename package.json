@@ -1,0 +1,42 @@
+{
+  "name": "combat-colosseum",
+  "version": "0.1.0",
+  "proxy": "http://localhost:4567",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "sequelize": "^4.42.0",
+    "serve": "^10.1.2"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "db:init": "dropdb --if-exists combatColosseum_db && createdb combatColosseum_db",
+    "db:reset": "node ./scripts/resetDb",
+    "db:seed": "node ./scripts/seed",
+    "server": "node ./server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm start\"",
+    "start": "concurrently --kill-others-on-fail \"node ./server.js\" \"react-scripts start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
