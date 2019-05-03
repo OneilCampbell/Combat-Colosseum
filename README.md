@@ -1,5 +1,6 @@
 # Combat-Colosseum
-https://combat-colosseum.herokuapp.com/ \
+[Play The Game Here](https://combat-colosseum.herokuapp.com)
+
 Combat Colosseum is an arcade style fighting game where players choose a character and must defeat an onslaught of enemies. The enemies will increase in difficulty and frequency until the player has defeated them all. If the player suffers too much damage then their life bar will deplete and they will lose. Players will also be able to create an account to track their highscores and see where they place on the overall leaderboards.
 
 ### Technologies
@@ -40,11 +41,17 @@ Combat Colosseum is an arcade style fighting game where players choose a charact
 "As a user, I would like to know how other people have done in the game, so that I know whether I am good at it" 
 
 ### Wireframes
-https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_112940.jpg
-https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_112950.jpg
+<details>
+  <summary>Wireframe Images</summary>
+  <img src="https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_112940.jpg" alt="wireframe 1">
+  <img src="https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_112950.jpg" alt="wireframe 2">
+</details>
 
 ### ERDs
-https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_113018.jpg
+<details>
+  <summary>ERD Image</summary>
+  <img src="https://res.cloudinary.com/oneilcampbell/image/upload/v1551198994/20190226_113018.jpg" alt="hierarchy">
+</details>
 
 ### Milestones
 
