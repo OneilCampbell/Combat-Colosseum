@@ -19,5 +19,5 @@ yarn-error.log*
 src/*
 public/*
 build/static/css/*.map
-build/static/js/*.mapDS_Store
-node_modules
+build/static/js/*.map
+

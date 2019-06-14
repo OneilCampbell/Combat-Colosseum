@@ -1,7 +1,7 @@
 {
   "name": "combat-colosseum",
   "version": "0.1.0",
-  "proxy": "http://localhost:4567",
+  "proxy": "http://localhost:4565",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -10,13 +10,13 @@
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.10",
-    "pg": "^7.8.1",
+    "pg": "^7.10.0",
     "pg-hstore": "^2.3.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
-    "sequelize": "^4.42.0",
+    "sequelize": "^4.44.0",
     "serve": "^10.1.2"
   },
   "scripts": {
